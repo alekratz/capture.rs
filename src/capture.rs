@@ -55,9 +55,6 @@ fn main() {
 */
 
 #![crate_type = "dylib"]
-#![license = "MIT"]
-
-#![feature(macro_rules)]
 
 #[macro_export]
 macro_rules! capture {
